@@ -1,0 +1,36 @@
+{
+  "name": "dong-update",
+  "version": "0.0.0",
+  "description": "update dong",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crossjs/dong-update.git"
+  },
+  "keywords": [
+    "update",
+    "dong",
+    "install"
+  ],
+  "author": {
+    "name": "crossjs",
+    "email": "liwenfu@crossjs.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/crossjs/dong-update/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/crossjs/dong-update/issues"
+  },
+  "homepage": "https://github.com/crossjs/dong-update",
+  "dependencies": {
+    "latest-version": "^1.0.1",
+    "shelljs": "^0.3.0",
+    "spm-log": "^0.1.2"
+  }
+}
