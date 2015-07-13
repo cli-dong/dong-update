@@ -10,7 +10,7 @@
 
 module.exports = {
   command: 'update',
-  description: '给 SPM 打补丁',
+  description: '更新 dong',
   options: [{
     name: 'registry',
     alias: 'R',
@@ -19,8 +19,13 @@ module.exports = {
     defaults: ''
   }, {
     name: 'sudo',
-    alias: 's',
+    alias: 'S',
     description: '需要 su 权限（unix）',
+    defaults: false
+  }, {
+    name: 'force',
+    alias: 'F',
+    description: '强制重新安装',
     defaults: false
   }],
   bootstrap: require('./lib/update'),
