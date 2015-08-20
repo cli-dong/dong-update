@@ -1,6 +1,6 @@
 {
   "name": "dong-update",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "update dong",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/crossjs/dong-update",
   "dependencies": {
+    "dong-queue": "^0.1.0",
     "latest-version": "^1.0.1",
     "shelljs": "^0.3.0",
     "spm-log": "^0.1.2"
